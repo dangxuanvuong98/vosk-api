@@ -1,1 +1,2 @@
 include ':lib', ':model-en'
+include ':app'
