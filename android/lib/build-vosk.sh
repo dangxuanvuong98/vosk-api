@@ -28,7 +28,7 @@ set -x
 
 OS_NAME=`echo $(uname -s) | tr '[:upper:]' '[:lower:]'`
 ANDROID_TOOLCHAIN_PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/${OS_NAME}-x86_64
-WORKDIR_BASE=`pwd`/build
+WORKDIR_BASE=`pwd`/.build
 PATH=$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/${OS_NAME}-x86_64/bin:$PATH
 OPENFST_VERSION=1.8.0
 

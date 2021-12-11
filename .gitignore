@@ -15,6 +15,7 @@ gradle.properties
 # Android
 android/build
 android/lib/build
+android/lib/.build
 android/model-en/build
 android/model-en/src/main/assets/model-en-us
 android/repo
